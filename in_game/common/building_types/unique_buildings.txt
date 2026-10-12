@@ -3133,7 +3133,11 @@ kremlin = {
 
 	}
 
-	
+	raw_modifier = {
+		fort_level = 1
+		pure_tooltip_entry = pte_no_propagating_zone_of_control            # propagating_zone_of_control = no
+	}
+
 	possible_production_methods = {
 		early_soldier_building_maintenance
 	}
