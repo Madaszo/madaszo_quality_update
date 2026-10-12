@@ -1,0 +1,116 @@
+on_capital_moved = {
+	effect = {
+		if = {
+			limit = {
+				scope:old_capital = { this = location:moscow }
+				scope:new_capital = { this = location:neva }
+			}
+			scope:old_capital = {
+				while = {
+					limit = { has_building = building_type:kremlin }
+					change_building_level_in_location = {
+						building = building_type:kremlin
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:kremlin
+							value = 1
+						}
+					}
+				}
+				while = {
+					limit = { has_building = building_type:stroganov_school_of_iconic_art }
+					change_building_level_in_location = {
+						building = building_type:stroganov_school_of_iconic_art
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:stroganov_school_of_iconic_art
+							value = 1
+						}
+					}
+				}
+				while = {
+					limit = { has_building = building_type:novodevichy_convent }
+					change_building_level_in_location = {
+						building = building_type:novodevichy_convent
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:novodevichy_convent
+							value = 1
+						}
+					}
+				}
+				while = {
+					limit = { has_building = building_type:moscow_artillery_yard }
+					change_building_level_in_location = {
+						building = building_type:moscow_artillery_yard
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:moscow_artillery_yard
+							value = 1
+						}
+					}
+				}
+				while = {
+					limit = { has_building = building_type:greek_latin_academy }
+					change_building_level_in_location = {
+						building = building_type:greek_latin_academy
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:greek_latin_academy
+							value = 1
+						}
+					}
+				}
+				while = {
+					limit = { has_building = building_type:sukharev_tower }
+					change_building_level_in_location = {
+						building = building_type:sukharev_tower
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:sukharev_tower
+							value = 1
+						}
+					}
+				}
+				while = {
+					limit = { has_building = building_type:moscow_orphanage }
+					change_building_level_in_location = {
+						building = building_type:moscow_orphanage
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:moscow_orphanage
+							value = 1
+						}
+					}
+				}
+				while = {
+					limit = { has_building = building_type:bolshoi_theater }
+					change_building_level_in_location = {
+						building = building_type:bolshoi_theater
+						value = -1
+					}
+					scope:new_capital = {
+						change_building_level_in_location = {
+							building = building_type:bolshoi_theater
+							value = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}

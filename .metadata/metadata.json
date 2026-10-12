@@ -1,0 +1,11 @@
+{
+	"name": "Madaszo Quality Update",
+	"id": "madaszo.quality_update",
+	"version": "1.0.0",
+	"supported_game_version": "1.4.0",
+	"short_description": "Gameplay improvements for Europa Universalis V.",
+	"tags": ["Gameplay"],
+	"relationships": [],
+	"game_custom_data": {
+	}
+}

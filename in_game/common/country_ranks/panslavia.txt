@@ -1,0 +1,32 @@
+rank_hegemony = {
+	color = color_rank_empire
+
+	rank_modifier = {
+		max_diplomats = 3
+		diplomatic_range = 1500
+		monthly_prestige = 0.3
+		num_possible_rivals = 5
+		num_possible_artists = 3
+		fort_limit = 3
+		cultures_capacity = 3
+		government_size = 2
+		diplomatic_capacity = 4
+		possible_industry_promotions = 3
+		allowed_alliance = yes
+		allowed_guarantee = yes
+		allowed_support_rebels = yes
+		mercenary_range_modifier = 1.5
+		num_local_governors = 2
+		ai_amount_of_parallel_charters = 6
+	}
+
+	level = 5
+	victory_card = yes
+	ai_level = 4
+	ai_conquer_desire_multiplier = 5
+	language_power_scale = 3
+
+	allow = {
+		always = no
+	}
+}

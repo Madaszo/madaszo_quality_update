@@ -1,0 +1,9 @@
+l_english:
+ form_panslavia_decision_title: "Proclaim Panslavia"
+ form_panslavia_decision_desc: "Unite the Slavic lands under a single imperial state."
+ form_panslavia_decision_a: "Proclaim Panslavia"
+ PANS: "Panslavia"
+ PANS_ADJ: "Panslavic"
+ rank_hegemony: "Panslavic Hegemony"
+ rank_hegemony_ruler_male: "Panslavic Hegemon"
+ rank_hegemony_ruler_female: "Panslavic Hegemon"

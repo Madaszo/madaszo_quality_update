@@ -1,0 +1,50 @@
+PANS_f = {
+	level = 5
+	required_locations_fraction = 0.5
+	capital_required = yes
+	rule = fantasy
+	content_priority = 900
+
+	potential = {
+		OR = {
+			has_or_had_tag = RUS
+			culture = { has_culture_group = culture_group:russian_group }
+			culture = { has_culture_group = culture_group:polish_group }
+			culture = { has_culture_group = culture_group:south_slavic_group }
+			culture = { has_culture_group = culture_group:bohemian_group }
+		}
+	}
+
+	allow = {
+		is_subject = no
+		country_rank = country_rank:rank_empire
+		owns = location:moscow
+		owns = location:warsaw
+		owns = location:prague
+		owns = location:kyiv
+		owns = location:belgrad
+		owns = location:sredets
+		owns = location:novgorod
+	}
+
+	name = PANS
+	flag = RUS
+	adjective = PANS_ADJ
+	tag = PANS
+	color = map_RUS
+
+	locations = {
+		moscow
+		warsaw
+		prague
+		kyiv
+		belgrad
+		sredets
+		novgorod
+	}
+
+	form_effect = {
+		set_country_rank_effect = { rank = country_rank:rank_hegemony }
+		add_prestige = prestige_extreme_bonus
+	}
+}

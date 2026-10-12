@@ -1,0 +1,31 @@
+﻿assimilate_group_into_merged_culture = {
+	save_scope_as = assimilating_country
+	every_pop = {
+		limit = {
+			owner = scope:assimilating_country
+			culture = {
+				any_culture_group = {
+					this = scope:merged_group
+				}
+			}
+			NOT = { culture = scope:new_merged_culture }
+		}
+		split_pop = {
+			fraction = 1
+			culture = scope:new_merged_culture
+		}
+	}
+	every_character = {
+		limit = {
+			NOT = { culture = scope:new_merged_culture }
+			culture = {
+				is_primary_or_accepted_in = scope:assimilating_country
+				any_culture_group = {
+					this = scope:merged_group
+				}
+				language = scope:new_merged_culture.language
+			}
+		}
+		change_character_culture = scope:new_merged_culture
+	}
+}

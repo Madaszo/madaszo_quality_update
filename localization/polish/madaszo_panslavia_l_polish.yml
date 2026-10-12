@@ -1,0 +1,9 @@
+l_polish:
+ form_panslavia_decision_title: "Proklamuj Pan-Sławię"
+ form_panslavia_decision_desc: "Zjednocz ziemie słowiańskie pod władzą jednego imperium."
+ form_panslavia_decision_a: "Proklamuj Pan-Sławię"
+ PANS: "Panslawia"
+ PANS_ADJ: "pansłowiański"
+ rank_hegemony: "Hegemonia Pansłowiańska"
+ rank_hegemony_ruler_male: "Hegemon pansłowiański"
+ rank_hegemony_ruler_female: "Hegemonka pansłowiańska"
